@@ -6,10 +6,9 @@
     "prepare": "npm run lint && ncc build src/index.ts --minify --source-map"
   },
   "dependencies": {
-    "@actions/artifact": "^2.0.0",
-    "@actions/core": "^1.6.0",
+    "@actions/artifact": "^5.0.1",
+    "@actions/core": "^2.0.3",
     "@actions/exec": "^1.1.0",
-    "@actions/github": "^6.0.0",
     "axios": "^1.17.0",
     "semver": "^7.7.1"
   },

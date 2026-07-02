@@ -1,0 +1,35 @@
+[[IgnoredVulns]]
+id = "GHSA-2mjp-6q6p-2qxm"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-35p6-xmwp-9g52"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-4992-7rv2-5pvq"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-g8m3-5g58-fq7m"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-g9mf-h72j-4rw9"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-p88m-4jfj-68fv"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-v9p9-hfj2-hcw8"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-vrm6-8vpv-qv8q"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
+
+[[IgnoredVulns]]
+id = "GHSA-vxpw-j846-p89q"
+reason = "undici@5.29.0 is unreachable, only used by @actions/artifact's unused download/get/list/delete-artifact paths"
