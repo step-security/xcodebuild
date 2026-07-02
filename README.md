@@ -2,6 +2,8 @@
 
 # step-security/xcodebuild
 
+> Derived from [mxcl/xcodebuild](https://github.com/mxcl/xcodebuild), originally released under the Unlicense.
+
 Make your software #continuously-resilient as well as continuously integrated.
 
 This action will continue to work forever, no more CI breakage because Xcode
