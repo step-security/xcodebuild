@@ -1,8 +1,7 @@
 {
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "noImplicitAny": true,
-    "moduleResolution": "node"
+    "noImplicitAny": true
   },
   "exclude": ["node_modules"]
 }
