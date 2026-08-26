@@ -17,7 +17,7 @@ jobs:
 
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - run: npm i
-      - run: npm run prepare
+      - run: npm run build
       - run: git diff --exit-code
 
   defaults:
@@ -298,7 +298,7 @@ jobs:
 
   xcode:
     name: ${{ matrix.platform }} (${{ matrix.action }} ${{ matrix.xcode }} ${{ matrix.codecov && 'cc' || ''}}${{ matrix.job-name-sufix }})
-    runs-on: macos-latest
+    runs-on: ${{ matrix.runner || 'macos-latest' }}
     needs: [verify-dist]
     continue-on-error: true
     strategy:
@@ -310,6 +310,7 @@ jobs:
           - watchOS
         xcode:
           - ^16
+          - ^26
         codecov:
           - false
         action:
@@ -317,6 +318,8 @@ jobs:
         warnings-as-errors:
           - false
         include:
+          - xcode: ^16
+            runner: macos-15
           - job-name-sufix: ' platform-version ^17'
             platform: iOS
             platform-version: ^17
